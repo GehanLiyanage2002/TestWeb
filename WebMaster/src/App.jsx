@@ -4,14 +4,23 @@ import Footer from './assets/Components/Footer/Footer'
 import Body from './assets/Components/Body/Body'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <div id="wrapper">
-        <Header/>
-        <Body/>
-        <Footer/>
+        <Header />
+        <Body>
+        <button>Click Here</button>
+        </Body>
+
+        <Body>
+          <p>Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Enim laudantium voluptates 
+            molestiae quia consectetur, itaque in quo non. 
+            Id beatae nobis omnis alias molestias ullam asperiores 
+            voluptatem debitis autem sit.</p>
+        </Body>
       </div>
     </>
   )

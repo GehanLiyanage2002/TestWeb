@@ -1,4 +1,33 @@
-#navcontent{min-height: 10vh;
+#navcontent {
+    min-height: 10vh;
     padding-top: 3vh;
-    background-color: black;}
+    background-color: #333; /* Match the navbar background color */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navcontent .link {
+    color: #d4d4d4;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navcontent .link:hover {
+    background-color: #2d323b;
+    border-radius: 13px;
+    color: #ffffff;
+}
+
+#navcontent .link:active {
+    background-color: #1a1d23;
+    color: #ffffff;
+}
+
+#navcontent .link:focus {
+    outline: none;
+    outline-offset: 2px;
+}
 
